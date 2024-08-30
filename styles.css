@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('/images/tekken8_announcement_thumbnail.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 10px;
+  min-height: 100vh;
+}
+.team-stats>p,h1,label{
+    color: white;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+  .team-stats {
+    flex-direction: column;
+  }
+}
