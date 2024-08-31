@@ -13,6 +13,7 @@ body {
   padding: 10px;
   min-height: 100vh;
 }
+
 .team-stats>p,h1,label{
     color: white;
 }
